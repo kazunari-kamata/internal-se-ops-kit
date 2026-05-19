@@ -53,6 +53,9 @@ def test_generate_onboarding_checklist():
 
     assert "# 入社対応チェックリスト" in output
     assert "- [ ] 標準アカウントを作成した" in output
+    assert "## 初回利用確認" in output
+    assert "- [ ] 初回サインインが完了した" in output
+    assert "- 対応担当:" in output
 
 
 def test_generate_offboarding_checklist():
