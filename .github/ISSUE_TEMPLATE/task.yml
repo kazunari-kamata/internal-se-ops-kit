@@ -1,0 +1,48 @@
+name: Task
+description: 作業タスクを登録します
+title: "[Task]: "
+labels:
+  - type/task
+body:
+  - type: textarea
+    id: purpose
+    attributes:
+      label: 目的
+      description: この作業の目的を記載してください。
+      placeholder: 例：入退社対応の確認漏れを防ぐため、チェックリストを整備する。
+    validations:
+      required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 作業内容
+      description: 作業項目をチェックリストで記載してください。
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: 完了と判断する条件を記載してください。
+      value: |
+        -
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 注意点
+      description: 公開リポジトリに掲載できない情報があれば除外してください。
+      value: |
+        - 実在する会社名、顧客名、個人名、メールアドレスは含めない。
+        - IPアドレス、ドメイン、社内パス、ローカル環境固有の絶対パスは含めない。
+        - 必要に応じてサンプル値へ置き換える。
+    validations:
+      required: false
