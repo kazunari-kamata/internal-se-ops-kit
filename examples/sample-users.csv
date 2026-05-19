@@ -1,0 +1,5 @@
+user_id,role_group,start_date,end_date,status
+user-001,standard,2025-04-01,,active
+user-002,standard,2025-05-01,,active
+user-003,temporary,2025-06-01,2026-03-31,active
+user-004,standard,2024-10-01,2026-01-31,inactive

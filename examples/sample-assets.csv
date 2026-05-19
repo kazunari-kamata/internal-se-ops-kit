@@ -1,0 +1,6 @@
+asset_id,asset_type,owner_id,status,purchase_date,next_review_date
+AST-0001,laptop,user-001,in_use,2025-04-10,2026-04-10
+AST-0002,laptop,user-002,in_use,2025-05-15,2026-05-15
+AST-0003,desktop,shared-001,spare,2024-11-20,2026-02-20
+AST-0004,mobile,user-003,repair,2025-01-08,2026-01-08
+AST-0005,monitor,shared-002,retired,2023-09-01,2025-09-01
